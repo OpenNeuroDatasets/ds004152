@@ -1,0 +1,42 @@
+{
+  "blockLoop_thisRepN": {
+    "Description": "Block number (integer)"
+  },
+  "trialLoop_thisRepN": {
+    "Description": "Trial number (integer)"
+  },
+  "trigger": {
+    "Description": "EEG trigger for this response (integer)"
+  },
+  "firstKey": {
+    "Description": "First key pressed this block (character)",
+    "Levels": {
+      "f": "Left",
+      "k": "Right",
+      "j": "Right"
+    }
+  },
+  "readyKey_corr": {
+    "Description": "First key was correct (boolean)",
+    "Levels": {
+      "x0": "First key press this block was incorrect",
+      "x1": "First key press this block was correct"
+    }
+  },
+  "readyKey_rt": {
+    "Description": "First key RT (seconds)"
+  },
+  "targetKey": {
+    "Description": "Target key for this round (character)",
+    "Levels": {
+      "f": "Left",
+      "j": "Right"
+    }
+  },
+  "blockType": {
+    "Description": "Condition code (integer)",
+    "Levels": {
+      "x1": "Fast, pattern 1, left-hand start",
+      "x2": "Fast, pattern 1, right-hand start",
+      "x3": "Fast, pattern 2, left-hand start",
+      "x4": "Fast
