@@ -12,7 +12,6 @@
     "Description": "First key pressed this block (character)",
     "Levels": {
       "f": "Left",
-      "k": "Right",
       "j": "Right"
     }
   },
