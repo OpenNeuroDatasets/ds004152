@@ -1,0 +1,78 @@
+{
+  "blockLoop_thisRepN": {
+    "Description": "Block number (integer)"
+  },
+  "trialLoop_thisRepN": {
+    "Description": "Trial number (integer)"
+  },
+  "trigger": {
+    "Description": "EEG trigger for this response (integer)"
+  },
+  "firstKey": {
+    "Description": "First key pressed this block (character)",
+    "Levels": {
+      "f": "Left",
+      "j": "Right"
+    }
+  },
+  "readyKey_corr": {
+    "Description": "First key was correct (boolean)",
+    "Levels": {
+      "x0": "First key press this block was incorrect",
+      "x1": "First key press this block was correct"
+    }
+  },
+  "readyKey_rt": {
+    "Description": "First key RT (seconds)"
+  },
+  "targetKey": {
+    "Description": "Target key for this round (character)",
+    "Levels": {
+      "f": "Left",
+      "j": "Right"
+    }
+  },
+  "blockType": {
+    "Description": "Condition code (integer)",
+    "Levels": {
+      "x1": "Fast, pattern 1, left-hand start",
+      "x2": "Fast, pattern 1, right-hand start",
+      "x3": "Fast, pattern 2, left-hand start",
+      "x4": "Fast, pattern 2, right-hand start",
+      "x5": "Medium, pattern 1, left-hand start",
+      "x6": "Medium, pattern 1, right-hand start",
+      "x7": "Medium, pattern 2, left-hand start",
+      "x8": "Medium, pattern 2, right-hand start",
+      "x9": "Slow, pattern 1, left-hand start",
+      "x10": "Slow, pattern 1, right-hand start",
+      "x11": "Slow, pattern 2, left-hand start",
+      "x12": "Slow, pattern 2, right-hand start"
+    }
+  },
+  "margin": {
+    "Description": "Margin around target time (seconds)"
+  },
+  "outcome": {
+    "Description": "Trial outcome (integer)",
+    "x0": "Early",
+    "x1": "On time",
+    "x2": "Late"
+  },
+  "trialResp_keys": {
+    "Description": "Response (character)",
+    "Levels": {
+      "f": "Left",
+      "j": "Right"
+    }
+  },
+  "trialResp_corr": {
+    "Description": "Correct response flag (boolean)",
+    "Levels": {
+      "x0": "Incorrect key was pressed",
+      "x1": "Correct key was pressed"
+    }
+  },
+  "trialResp_rt": {
+    "Description": "Response time (seconds)"
+  }
+}
