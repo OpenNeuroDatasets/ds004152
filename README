@@ -7,7 +7,7 @@ Participant 12 should be excluded from event-locked analyses due to bad triggers
 Timing  
 Repeat for 72 trials: fixation dot (until response) -> feedback circle (50 ms)
 
-Conditions  
+Condition Codes  
 1: "Fast, pattern 1, left-hand start"  
 2: "Fast, pattern 1, right-hand start"  
 3: "Fast, pattern 2, left-hand start"  
