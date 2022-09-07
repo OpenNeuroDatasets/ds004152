@@ -21,11 +21,11 @@ Condition Codes
 11: "Slow, pattern 2, left-hand start"  
 12: "Slow, pattern 2, right-hand start"  
 
-Trigger Modifiers
-Add 0: Metronome beat (pre-block)
-Add 20: Ready screen (pre-block)
-Add 40: First response (can't be early, on time, or late)
-Add 60: Early response
-Add 80: On time response
-Add 100: Late response
-Add 120: Red X (wrong key pressed)
+Trigger Modifiers  
+Add 0: Metronome beat (pre-block)  
+Add 20: Ready screen (pre-block)  
+Add 40: First response (can't be early, on time, or late)  
+Add 60: Early response  
+Add 80: On time response  
+Add 100: Late response  
+Add 120: Red X (wrong key pressed)  
